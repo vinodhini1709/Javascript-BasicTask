@@ -1,0 +1,40 @@
+<style>
+    div{
+       background-color:black;
+       width:100px;
+       height:100px; 
+       transition:2s;
+    }
+    .widthmax{
+        width:980px;
+    }
+</style>
+<div id="box" ></div>
+<button onclick="change()" >changecolor</button>
+<script>
+    var para =document.getElementById("box")
+
+    function change()f22
+    {
+        box.setAttribute("class","widthmax")
+    }
+</script>
+
+<hr>
+ 
+<input id="inputbox" onkeyup="update()" >
+<h1 id="result"></h1>
+<script>
+    //<button onclick="update()">click here</button>
+
+    //select inputbox
+    //select result
+    var inputbox=document.getElementById("inputbox")
+    var result=document.getElementById("result")
+
+    function update()
+    {
+        result.textContent=inputbox.value
+    }
+</script>
+
